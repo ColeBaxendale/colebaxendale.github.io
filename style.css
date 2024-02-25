@@ -45,7 +45,7 @@ section {
 iframe {
     width: 100%;
     max-width: 560px; /* Maximum width */
-    height: auto; /* Adjust height automatically */
+    height: 500px; /* Adjust height automatically */
 }
 
 
