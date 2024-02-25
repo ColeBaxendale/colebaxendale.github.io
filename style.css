@@ -1,27 +1,21 @@
-/* Basic Reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     line-height: 1.6;
+    margin: 0;
     padding: 20px;
     background-color: #f4f4f4;
 }
 
 header {
-    background: #333;
-    color: #fff;
-    padding-top: 30px;
-    min-height: 70px;
-    border-bottom: #0779e4 3px solid;
+    background-color: #333;
+    color: white;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 header h1 {
     text-align: center;
+    padding: 20px 0;
 }
 
 nav ul {
@@ -31,24 +25,41 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin: 0 20px;
+    margin: 0 15px;
 }
 
 nav ul li a {
+    color: white;
     text-decoration: none;
-    color: #fff;
+    font-weight: bold;
 }
 
+section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+iframe {
+    width: 100%;
+    max-width: 560px; /* Maximum width */
+    height: auto; /* Adjust height automatically */
+}
+
+
 .artifact {
-    background: #fff;
-    padding: 15px;
-    margin: 15px 0;
-    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.artifact h3 {
+    color: #333;
 }
 
 footer {
-    background: #333;
-    color: #fff;
+    background-color: #333;
+    color: white;
     text-align: center;
     padding: 10px;
     position: fixed;
@@ -57,9 +68,18 @@ footer {
     width: 100%;
 }
 
-@media (max-width: 600px) {
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
     nav ul li {
         display: block;
-        margin: 5px 0;
+        margin: 10px 0;
     }
 }
