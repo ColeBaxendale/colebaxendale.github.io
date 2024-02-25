@@ -50,7 +50,7 @@ iframe {
 
 
 .artifact {
-    margin-bottom: 20px;
+    margin-bottom: 200px;
 }
 
 .artifact h3 {
@@ -84,6 +84,3 @@ a:hover {
     }
 }
 
-.border{
-    padding-bottom: 20px;
-}
