@@ -74,7 +74,9 @@ iframe {
     align-items: center;
     text-align: center;
 }
-
+.artifact div p {
+    margin: 0;
+}
 footer {
     background-color: #333;
     color: white;
